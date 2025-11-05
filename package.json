@@ -1,0 +1,12 @@
+{
+  "name": "catchin-peer-server",
+  "version": "1.0.0",
+  "description": "Dedicated PeerJS server for CatchUp game",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx peerjs --port $PORT --path /"
+  },
+  "dependencies": {
+    "peer": "^1.0.2"
+  }
+}
